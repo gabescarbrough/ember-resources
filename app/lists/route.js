@@ -17,6 +17,6 @@ export default Ember.Route.extend({
 
     edit (list) {
       this.transitionTo('lists/edit', list);
-    }
+    },
   },
 });

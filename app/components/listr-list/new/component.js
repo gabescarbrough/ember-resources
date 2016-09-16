@@ -13,6 +13,6 @@ export default Ember.Component.extend({
       this.sendAction('submit', data);
 
       this.set('form.title', null);
-    }
+    },
   },
 });

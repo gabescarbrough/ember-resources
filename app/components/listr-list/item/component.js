@@ -6,6 +6,7 @@ export default Ember.Component.extend({
   classNameBindings: ['done'],
 
   done: Ember.computed.alias('item.done'),
+
   // click: references a function by its passed in name
   actions: {
     click () {

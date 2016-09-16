@@ -8,6 +8,6 @@ export default Ember.Component.extend({
 
     edit () {
       this.sendAction('edit', this.get('list'));
-    }
-  }
+    },
+  },
 });

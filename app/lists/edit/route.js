@@ -9,6 +9,6 @@ export default Ember.Route.extend({
     save (list) {
       list.save();
       this.transitionTo('lists');
-    }
-  }
+    },
+  },
 });
