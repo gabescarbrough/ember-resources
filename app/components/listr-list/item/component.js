@@ -17,5 +17,4 @@ export default Ember.Component.extend({
       this.sendAction('delete', this.get('item'));
     },
   },
-  store: Ember.inject.service(),
 });
